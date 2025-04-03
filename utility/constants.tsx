@@ -10,6 +10,7 @@ import cryptoWallet from '@/public/crypto_wallet.jpg';
 
 import { StaticImageData } from "next/image";
 const constants: ConstantType = {
+  url:'https://paletteriots.github.io/main-site/',
   contactInfo: {
     whatsappNumber: "8240768751",
     email: "business@paletteriots.com",
@@ -74,6 +75,7 @@ const constants: ConstantType = {
 export default constants;
 
 export interface ConstantType {
+  url: string;
   contactInfo: {
     whatsappNumber: string;
     email: string;

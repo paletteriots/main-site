@@ -7,8 +7,12 @@ import Portfolio from "@/components/Portfolio";
 import WorkFields from "@/components/WorkFields";
 import logo from "@/public/logo.png";
 import Image from "next/image";
+import constants from "@/utility/constants";
 
 export default function Home() {
+
+  const {url} = constants;
+
   return (
     <>
       <header className="w-full z-10 bg-white drop-shadow-xl">
@@ -23,7 +27,7 @@ export default function Home() {
       </main>
       <footer className="mx-auto margin-top w-fit mb-[19px]">
         <div className="flex flex-col items-center h-fit w-fit gap-3">
-          <a href="/" className="h-[40px] flex items-center gap-2 w-fit">
+          <a href={url} className="h-[40px] flex items-center gap-2 w-fit">
             <div className="relative h-full w-[20px] overflow-hidden">
               <Image
                 alt="logo"

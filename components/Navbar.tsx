@@ -1,9 +1,13 @@
 import BrandName from "./BrandName";
 import Buttton from "./Buttton";
+import constants from '@/utility/constants'
 const Navbar = () => {
+
+  const {url} = constants;
+  
   return (
     <nav className="flex justify-between items-center w-auto min-h-[60px] md:min-h-[100px] mx-[10px] md:mx-[30px] xl:mx-[120px] relative">
-      <a href="/"><BrandName className="w-[90px]"/></a>
+      <a href={url}><BrandName className="w-[90px]"/></a>
       <div className="w-fit flex gap-4 lg:gap-9 navitems">
         <a href="#portfolio">Portfolio</a>
         <a href="#services">Services</a>
