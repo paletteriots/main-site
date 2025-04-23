@@ -29,7 +29,7 @@ const constants: ConstantType = {
     },
     {
       image: author,
-      title: "Portfolio website",
+      title: "Portfolio site",
       subTitle: "Minimalist Approach to Showcasing Creativity",
       targetUrl:"https://medium.com/@business_7608/%EF%B8%8F-case-study-branding-ritwik-ghosh-an-authors-digital-identity-bca88bb0eb4c",
       tags: ["Website Development", "UX/UI Design", "Branding"],
