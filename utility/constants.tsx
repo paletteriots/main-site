@@ -5,7 +5,7 @@ import illustration from "@/public/illustration.png";
 import bookCoverDesign from "@/public/book_cover_design.jpg";
 import digitalArt from "@/public/digital_art.jpeg";
 import author from '@/public/author.png';
-import palleteRiots from '@/public/pallete_riots.jpeg';
+import palleteRiots from '@/public/palette-riots.jpeg';
 import matriSuraksha from '@/public/matri_suraksha.jpeg';
 import homeStay from '@/public/home_stay.jpeg'
 import { StaticImageData } from "next/image";
@@ -18,7 +18,7 @@ const constants: ConstantType = {
   portfolio: [
     {
       image: palleteRiots,
-      title:'Palette Riots',
+      title:'Brand Creation',
       subTitle:'Crafting a Bold & Timeless Design Identity',
       tags:[
         'Brand Identity',
