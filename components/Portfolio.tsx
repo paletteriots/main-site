@@ -43,7 +43,7 @@ const Portfolio = () => {
   useEffect(() => {
     setInterval(() => {
       setTranslate(0);
-    },60000);
+    },120000);
   }, []);
 
   return (
@@ -60,7 +60,7 @@ const Portfolio = () => {
         </h2>
       </div>
       <div
-        className={`w-fit h-auto mt-[30px] md:mt-[70px] lg:mt-[100px] flex items-center gap-5 transition-transform ease-linear`}
+        className={`w-fit h-fit mt-[30px] md:mt-[70px] lg:mt-[100px] flex items-center gap-5 transition-transform ease-linear`}
         style={{transform:`translateX(${translate}px)`}}
       >
         {cards.map(({ image, title, subTitle, tags, targetUrl }, index) => (

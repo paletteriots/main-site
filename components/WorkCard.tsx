@@ -1,5 +1,4 @@
 import React from "react";
-import cardImage from "@/public/cardImage.jpeg";
 import Image, { StaticImageData } from "next/image";
 import { MdArrowOutward } from "react-icons/md";
 
